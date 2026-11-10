@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ahmed Ijaz | Technical Writer, Customer Success Ops &amp; HubSpot Admin</title>
+<meta name="description" content="Ahmed Ijaz is a technical writer, customer success operations specialist and HubSpot administrator in Islamabad, Pakistan. He built Uconia's HubSpot knowledge base, help desk and release notes programme from the ground up.">
+<meta name="author" content="Ahmed Ijaz">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ahmedijaz00.github.io/">
+<meta name="theme-color" content="#16212B">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Ahmed Ijaz | Technical Writer, Customer Success Ops & HubSpot Admin">
+<meta property="og:description" content="Knowledge bases, help desks and release notes for a construction SaaS product. Portfolio of Ahmed Ijaz.">
+<meta property="og:url" content="https://ahmedijaz00.github.io/">
+<meta property="og:image" content="https://ahmedijaz00.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="profile:first_name" content="Ahmed">
+<meta property="profile:last_name" content="Ijaz">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ahmed Ijaz | Technical Writer, Customer Success Ops & HubSpot Admin">
+<meta name="twitter:description" content="Knowledge bases, help desks and release notes for a construction SaaS product.">
+<meta name="twitter:image" content="https://ahmedijaz00.github.io/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ahmed Ijaz",
+  "url": "https://ahmedijaz00.github.io/",
+  "image": "https://ahmedijaz00.github.io/ahmed-ijaz.jpg",
+  "jobTitle": "Technical Writer and Customer Success Specialist",
+  "worksFor": {"@type": "Organization", "name": "Uconia"},
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "HITEC University"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"},
+  "email": "mailto:ahmedijaz42015@gmail.com",
+  "sameAs": ["https://www.linkedin.com/in/ahmedijazmech/"],
+  "knowsAbout": ["Technical writing", "Knowledge base architecture", "HubSpot Help Desk", "HubSpot administration", "Customer success operations", "Release notes", "SOP documentation", "Zendesk migration"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an engineering drawing sheet. Title block hero, three pillars, case files with doc IDs, record at the end. */
+:root{
+  --paper:#F3F5F6; --sheet:#FFFFFF; --ink:#16212B; --muted:#56636F; --rule:#D3DADF; --grid:#E2E7EA;
+  --hivis:#E9A21B; --accent:#8A5300; --chip:#FBEFD6; --ok:#1F7A4D; --okbg:#E3F3EA; --wip:#2D5B8C; --wipbg:#E4EDF7;
+  --shadow:rgba(22,33,43,.12);
+  --display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --paper:#0F161D; --sheet:#151F28; --ink:#E5EBF0; --muted:#9AA8B4; --rule:#2A3742; --grid:#18222C;
+  --hivis:#F2B33D; --accent:#F2B33D; --chip:#2E2614; --ok:#6FD3A0; --okbg:#173326; --wip:#8DB8E8; --wipbg:#192A3C;
+  --shadow:rgba(0,0,0,.45); color-scheme:dark}}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--body);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:32px 32px;background-position:var(--gx,0) var(--gy,0)}
+img{max-width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding-block:40px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:64px}
+h1,h2,h3{font-family:var(--display);font-stretch:85%;line-height:1.05;margin:0;text-wrap:balance}
+h2{font-size:clamp(28px,4vw,40px);font-weight:800}
+h3{font-size:22px;font-weight:700}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--hivis);outline-offset:3px}
+.mono{font-family:var(--mono);font-size:13px}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sheet{background:var(--sheet);border:1px solid var(--ink)}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 260px;position:relative}
+.hero-main{padding:clamp(24px,4vw,44px);display:flex;flex-direction:column;gap:20px;min-width:0}
+.hero h1{font-size:clamp(48px,9vw,96px);font-weight:800;font-stretch:75%;letter-spacing:-.01em;display:flex;flex-wrap:wrap;gap:0 .25em}
+.hero h1 .w{display:inline-block;overflow:hidden;padding-bottom:.06em}
+.hero h1 .w>span{display:inline-block}
+.dim{display:block;width:min(100%,420px);height:28px;color:var(--muted);overflow:visible}
+.dim line,.dim path{stroke:currentColor;stroke-width:1}
+.dim text{font:500 11px var(--mono);fill:var(--accent);letter-spacing:.08em}
+.roles{display:flex;flex-wrap:wrap;gap:8px}
+.roles span{font-family:var(--mono);font-size:13px;padding:4px 10px;border:1px solid var(--ink);background:var(--paper)}
+.roles span:first-child{background:var(--hivis);color:#16212B;border-color:var(--hivis)}
+.thesis{font-size:clamp(17px,2vw,20px);max-width:58ch}
+.contact{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center}
+.copy{font:500 13px var(--mono);background:none;border:1px solid var(--rule);color:var(--ink);padding:6px 10px;cursor:pointer;transition:border-color .2s,background .2s}
+.copy:hover{border-color:var(--ink);background:var(--paper)}
+.hero-side{border-left:1px solid var(--ink);display:flex;flex-direction:column;min-width:0}
+.photo{position:relative;overflow:hidden;border-bottom:1px solid var(--ink);background:#1b1b1b}
+.photo img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 49.5%,var(--hivis) 49.5%,var(--hivis) 50.5%,transparent 50.5%);opacity:0;pointer-events:none}
+.tb{display:grid;grid-template-columns:1fr 1fr}
+.tb div{padding:10px 12px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:2px;min-width:0}
+.tb div:nth-child(odd){border-right:1px solid var(--rule)}
+.tb .full{grid-column:1/-1;border-right:0!important}
+.tb b{font:500 14px var(--body)}
+.tb div:last-child,.tb div:nth-last-child(2):not(.full){border-bottom:0}
+
+/* Stats strip */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.stat{padding:20px 24px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.stat+.stat{border-left:1px solid var(--ink)}
+.stat .n{font:800 clamp(36px,5vw,52px)/1 var(--display);font-stretch:75%;font-variant-numeric:tabular-nums}
+.stat .n sup{font-size:.5em;color:var(--hivis);vertical-align:top;margin-left:2px}
+
+/* Sections */
+.sec{display:flex;flex-direction:column;gap:24px}
+.sec-head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;padding-bottom:10px;position:relative}
+.sec-head::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--ink);transform-origin:left}
+.sec-head .label{margin-left:auto}
+
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.pillar{padding:24px;display:flex;flex-direction:column;gap:14px;min-width:0;position:relative;transition:background .25s}
+.pillar:hover{background:var(--paper)}
+.pillar+.pillar{border-left:1px solid var(--ink)}
+.pillar ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.pillar li::marker{color:var(--hivis)}
+.pillar .code{font:500 12px var(--mono);color:var(--accent)}
+.pillar svg{width:40px;height:40px;color:var(--ink)}
+.pillar svg *{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.pillar svg .hl{stroke:var(--hivis)}
+
+.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.case{padding:24px;display:flex;flex-direction:column;gap:14px;min-width:0;position:relative;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.case::before{content:"";position:absolute;left:-1px;top:-1px;width:0;height:3px;background:var(--hivis);transition:width .4s var(--ease)}
+.case:hover{transform:translate(-4px,-4px);box-shadow:4px 4px 0 var(--ink)}
+.case:hover::before{width:calc(100% + 2px)}
+.case.wide{grid-column:1/-1}
+.case-top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.status{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;display:inline-flex;align-items:center;gap:6px}
+.status::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.status.ok{color:var(--ok);background:var(--okbg)}
+.status.wip{color:var(--wip);background:var(--wipbg)}
+.status.wip::before{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.case p{color:var(--muted)}
+.case dl{margin:0;display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px 14px;font-size:15px}
+.case dt{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:3px}
+.case dd{margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font:400 12px var(--mono);padding:2px 8px;background:var(--chip);color:var(--ink)}
+
+.tax-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px;min-width:520px}
+th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--ink)}
+td.id{font:500 14px var(--mono);color:var(--accent);white-space:nowrap}
+tbody tr{transition:background .2s}
+tbody tr:hover{background:var(--paper)}
+tr:last-child td{border-bottom:0}
+
+.record{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:20px}
+.timeline{padding:24px 24px 24px 24px;display:flex;flex-direction:column;gap:22px;position:relative}
+.job{display:grid;grid-template-columns:150px minmax(0,1fr);gap:14px;position:relative}
+.job .when{font:400 13px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums;padding-top:3px}
+.job h3{font-size:19px}
+.job .org{color:var(--muted);font-size:14px;margin-top:2px}
+.job ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.side{display:flex;flex-direction:column;gap:20px}
+.side .sheet{padding:20px 24px;display:flex;flex-direction:column;gap:12px}
+.side ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.side li{display:flex;gap:10px;align-items:baseline}
+.side li::before{content:"";flex:none;width:8px;height:8px;background:var(--hivis);transform:translateY(-1px)}
+.toolgrid{display:flex;flex-wrap:wrap;gap:6px}
+.toolgrid span{font:400 13px var(--mono);padding:3px 8px;border:1px solid var(--rule);transition:border-color .2s,background .2s}
+.toolgrid span:hover{border-color:var(--hivis);background:var(--chip)}
+
+footer{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;border-top:2px solid var(--ink);padding-top:16px}
+
+/* Motion. Content is fully visible without JS; .js-anim is added only when motion is allowed. */
+@media (prefers-reduced-motion:no-preference){
+  .js-anim .hero h1 .w>span{animation:rise .9s var(--ease) both}
+  .js-anim .hero h1 .w:nth-child(2)>span{animation-delay:.12s}
+  .js-anim .dim line,.js-anim .dim path{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.1s .5s var(--ease) forwards}
+  .js-anim .dim text{opacity:0;animation:fade .5s 1.3s forwards}
+  .js-anim .hero-main>*:not(h1):not(.dim){animation:up .7s var(--ease) both}
+  .js-anim .hero-main>.label{animation-delay:.05s}
+  .js-anim .roles{animation-delay:.35s!important}
+  .js-anim .thesis{animation-delay:.5s!important}
+  .js-anim .contact{animation-delay:.65s!important}
+  .js-anim .photo img{animation:unveil 1.1s .2s var(--ease) both}
+  .js-anim .photo::after{animation:scan 1.4s .3s ease-in-out}
+  .js-anim .tb div{animation:up .5s var(--ease) both}
+  .js-anim .tb div:nth-child(1){animation-delay:.7s}.js-anim .tb div:nth-child(2){animation-delay:.78s}
+  .js-anim .tb div:nth-child(3){animation-delay:.86s}.js-anim .tb div:nth-child(4){animation-delay:.94s}
+  .js-anim .tb div:nth-child(5){animation-delay:1.02s}.js-anim .tb div:nth-child(6){animation-delay:1.1s}
+
+  .js-anim .reveal.pre{opacity:0;transform:translateY(24px)}
+  .js-anim .reveal{transition:opacity .7s var(--ease),transform .7s var(--ease)}
+  .js-anim .sec-head.pre::after{transform:scaleX(0)}
+  .js-anim .sec-head::after{transition:transform 1s var(--ease)}
+}
+@keyframes rise{from{transform:translateY(105%)}to{transform:none}}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes unveil{from{clip-path:inset(100% 0 0 0);transform:scale(1.08)}to{clip-path:inset(0 0 0 0);transform:none}}
+@keyframes scan{0%{opacity:1;transform:translateY(-50%)}100%{opacity:0;transform:translateY(50%)}}
+
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr}
+  .hero-side{border-left:0;border-top:1px solid var(--ink);display:grid;grid-template-columns:180px minmax(0,1fr)}
+  .photo{border-bottom:0;border-right:1px solid var(--ink)}
+  .photo img{height:100%}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat:nth-child(3){border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--ink)}
+  .pillars{grid-template-columns:1fr}
+  .pillar+.pillar{border-left:0;border-top:1px solid var(--ink)}
+  .cases,.record{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .hero-side{grid-template-columns:1fr}
+  .photo{border-right:0;border-bottom:1px solid var(--ink)}
+  .job{grid-template-columns:1fr;gap:4px}
+  .case dl{grid-template-columns:1fr;gap:2px}
+  .case dd{margin-bottom:8px}
+}
+@media (hover:none){.case:hover{transform:none;box-shadow:none}}
+</style>
+</head>
+<body>
+<script>if(!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('js-anim');</script>
+<main class="wrap">
+
+<header class="hero sheet">
+  <div class="hero-main">
+    <span class="label">Portfolio · Rev. Nov 2026</span>
+    <h1 aria-label="Ahmed Ijaz"><span class="w"><span>Ahmed</span></span><span class="w"><span>Ijaz</span></span></h1>
+    <svg class="dim" viewBox="0 0 420 28" aria-hidden="true" preserveAspectRatio="xMinYMid meet">
+      <line x1="0.5" y1="4" x2="0.5" y2="24"/><line x1="419.5" y1="4" x2="419.5" y2="24"/>
+      <path d="M1 14 H160 M260 14 H419 M1 14 l8 -4 M1 14 l8 4 M419 14 l-8 -4 M419 14 l-8 4"/>
+      <text x="210" y="18" text-anchor="middle">4+ YRS · B2B SAAS</text>
+    </svg>
+    <div class="roles"><span>Technical Writer</span><span>Customer Success Operations</span><span>HubSpot Administrator</span></div>
+    <p class="thesis">I turn a construction software product into documentation, support systems and processes that customers can actually use. A mechanical engineer by training, I've spent four years at Uconia building the knowledge base, help desk and release communications from the ground up.</p>
+    <div class="contact">
+      <span class="mono" id="email">ahmedijaz42015@gmail.com</span>
+      <button class="copy" id="copy-email" type="button">Copy email</button>
+      <a href="https://www.linkedin.com/in/ahmedijazmech/" target="_blank" rel="noopener me">LinkedIn profile ↗</a>
+    </div>
+  </div>
+  <aside class="hero-side">
+    <div class="photo"><img src="ahmed-ijaz.jpg" width="400" height="400" alt="Portrait of Ahmed Ijaz"></div>
+    <div class="tb">
+      <div><span class="label">Based</span><b>Islamabad, PK</b></div>
+      <div><span class="label">Experience</span><b>4+ years</b></div>
+      <div class="full"><span class="label">Current</span><b>Uconia (GagaMuller Technology)</b></div>
+      <div class="full"><span class="label">Works with</span><b>Ireland HQ, Pakistan dev &amp; QA</b></div>
+      <div><span class="label">Degree</span><b>BS Mech. Eng.</b></div>
+      <div><span class="label">Cert.</span><b>NEBOSH IGC</b></div>
+    </div>
+  </aside>
+</header>
+
+<section class="stats sheet reveal" aria-label="At a glance">
+  <div class="stat"><span class="n"><span class="count" data-to="140">140</span><sup>+</sup></span><span class="label">KB articles, guides &amp; release notes</span></div>
+  <div class="stat"><span class="n"><span class="count" data-to="4">4</span><sup>+</sup></span><span class="label">Years in B2B SaaS support</span></div>
+  <div class="stat"><span class="n"><span class="count" data-to="5">5</span></span><span class="label">Article ID series designed</span></div>
+  <div class="stat"><span class="n"><span class="count" data-to="9">9</span></span><span class="label">Team members trained &amp; led</span></div>
+</section>
+
+<section class="sec" aria-labelledby="h-what">
+  <div class="sec-head reveal-line"><h2 id="h-what">What I do</h2><span class="label">Three disciplines, one support system</span></div>
+  <div class="pillars sheet reveal">
+    <div class="pillar">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M9 5h16l6 6v24H9z"/><path d="M25 5v6h6"/><path class="hl" d="M14 18h12M14 23h12M14 28h8"/></svg>
+      <span class="code">01 / WRITE</span>
+      <h3>Technical Writing</h3>
+      <ul>
+        <li>Knowledge base articles, user guides and SOPs</li>
+        <li>Release notes for web, iOS and Android, aligned to each sprint</li>
+        <li>Content taxonomy, templates and style standards</li>
+        <li>Version control with revision tracking and a release notes tracker</li>
+      </ul>
+    </div>
+    <div class="pillar">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 10h20v14H14l-6 5v-5H6z"/><path class="hl" d="M30 15h4v13h-2v4l-5-4h-9v-4"/></svg>
+      <span class="code">02 / OPERATE</span>
+      <h3>Customer Success Ops</h3>
+      <ul>
+        <li>First point of contact for an Irish client base</li>
+        <li>Onboarding, feature demos and escalation management</li>
+        <li>Issue and request workflow design, SLAs and CSAT</li>
+        <li>Customer feedback through NPS and monthly support reporting</li>
+      </ul>
+    </div>
+    <div class="pillar">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="5" class="hl"/><path d="M20 5v6M20 29v6M5 20h6M29 20h6M9.4 9.4l4.2 4.2M26.4 26.4l4.2 4.2M9.4 30.6l4.2-4.2M26.4 13.6l4.2-4.2"/></svg>
+      <span class="code">03 / CONFIGURE</span>
+      <h3>HubSpot Administration</h3>
+      <ul>
+        <li>Help Desk pipelines, ticket properties and escalation rules</li>
+        <li>Zendesk to HubSpot migration and WhatsApp channel</li>
+        <li>Knowledge base hub, chatflows and Breeze AI</li>
+        <li>Workflow automation, surveys and email distribution</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-work">
+  <div class="sec-head reveal-line"><h2 id="h-work">Selected work</h2><span class="label">Uconia · 2022 to present</span></div>
+  <div class="cases">
+
+    <article class="case sheet wide reveal">
+      <div class="case-top"><span class="label">KB-HUB</span><span class="status ok">Live</span></div>
+      <h3>Uconia Knowledge Base, built from zero</h3>
+      <p>Uconia had no self-service help centre. I designed and built the HubSpot knowledge base that customers now use, from the information architecture down to the article template.</p>
+      <dl>
+        <dt>Structure</dt><dd>Article ID taxonomy across five series, six main categories with tile-based navigation, and a Product Updates category for release notes.</dd>
+        <dt>Format</dt><dd>Reusable article layout with a sticky table of contents, numbered step tables, card grids, colour-coded callouts and FAQ accordions, refined toward a compact, low-scroll read.</dd>
+        <dt>Scale</dt><dd>140+ articles, user guides and release notes, co-owned with the business analyst as process owner.</dd>
+        <dt>Self-service</dt><dd>A HubSpot chatflow on the help centre that searches articles first and hands off to an agent through a Help Desk ticket.</dd>
+      </dl>
+      <div class="tags"><span>HubSpot KB</span><span>Information architecture</span><span>HTML/CSS</span><span>Chatflows</span></div>
+    </article>
+
+    <article class="case sheet reveal">
+      <div class="case-top"><span class="label">OPS-HD</span><span class="status ok">Live</span></div>
+      <h3>Zendesk to HubSpot Help Desk</h3>
+      <p>Migrated support from Zendesk to HubSpot and rebuilt the help desk and ticket pipelines from scratch.</p>
+      <dl>
+        <dt>Built</dt><dd>SLA design, escalation rules, ticket properties, CSAT survey timing and workflow automation.</dd>
+        <dt>Channels</dt><dd>Email, chat and a WhatsApp channel integration.</dd>
+        <dt>Process</dt><dd>Wrote the Customer Issue and Request Management Workflow proposal that defines how tickets move.</dd>
+      </dl>
+      <div class="tags"><span>Help Desk</span><span>SLAs</span><span>Migration</span></div>
+    </article>
+
+    <article class="case sheet reveal">
+      <div class="case-top"><span class="label">REL-NOTES</span><span class="status ok">Every release</span></div>
+      <h3>Release notes programme</h3>
+      <p>Customer-facing release notes for each Uconia release, written alongside development and QA.</p>
+      <dl>
+        <dt>Cadence</dt><dd>I join sprint planning so notes are ready when each release ships.</dd>
+        <dt>Control</dt><dd>Story tracker, naming conventions, revision tracking and sign-off before publishing.</dd>
+        <dt>Next</dt><dd>A per-release customer email using HubSpot CMS pages and an email CTA.</dd>
+      </dl>
+      <div class="tags"><span>Release notes</span><span>Scrum</span><span>HubSpot email</span></div>
+    </article>
+
+    <article class="case sheet reveal">
+      <div class="case-top"><span class="label">PLN · Y26-R08</span><span class="status ok">Shipped</span></div>
+      <h3>Weekly Work Plan documentation suite</h3>
+      <p>Full documentation for the Weekly Work Plan feature in the Plan module, one source written three ways for three audiences.</p>
+      <dl>
+        <dt>Customers</dt><dd>Release notes for the feature launch.</dd>
+        <dt>Users</dt><dd>An HTML knowledge base how-to guide.</dd>
+        <dt>Internal</dt><dd>A Word SOP for the team.</dd>
+      </dl>
+      <div class="tags"><span>SOP</span><span>How-to</span><span>Release notes</span></div>
+    </article>
+
+    <article class="case sheet reveal">
+      <div class="case-top"><span class="label">REQ-CHAT</span><span class="status wip">In progress</span></div>
+      <h3>In-app support and KB access</h3>
+      <p>A requirement I raised with Product and Engineering to put help inside the Uconia app.</p>
+      <dl>
+        <dt>Scope</dt><dd>A Support button that opens the help centre bot after login, handing off to an agent through a HubSpot ticket with an SLA.</dd>
+        <dt>Access</dt><dd>Knowledge base access for every active user on web and mobile.</dd>
+        <dt>AI</dt><dd>Moving from a keyword bot to HubSpot Breeze Customer Agent.</dd>
+      </dl>
+      <div class="tags"><span>Requirements</span><span>Breeze AI</span><span>Product</span></div>
+    </article>
+
+    <article class="case sheet wide reveal">
+      <div class="case-top"><span class="label">VOC</span><span class="status ok">Ongoing</span></div>
+      <h3>Voice of the customer</h3>
+      <dl>
+        <dt>Feedback</dt><dd>Setting up an NPS customer loyalty survey in HubSpot, alongside CSAT on resolved tickets.</dd>
+        <dt>Reporting</dt><dd>Present a Wins, Focus and Learnings support update at the monthly company meeting.</dd>
+        <dt>Product input</dt><dd>Feed field feedback into product decisions, such as filter labelling in the Plan module, and file clear bug reports for QA.</dd>
+      </dl>
+    </article>
+
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-tax">
+  <div class="sec-head reveal-line"><h2 id="h-tax">How the knowledge base is organised</h2><span class="label">Article ID series</span></div>
+  <div class="sheet tax-wrap reveal">
+    <table>
+      <thead><tr><th>Series</th><th>Covers</th><th>Reader's question</th></tr></thead>
+      <tbody>
+        <tr><td class="id">ONB</td><td>Onboarding</td><td>How do I get started?</td></tr>
+        <tr><td class="id">PRJ</td><td>Projects</td><td>How do I set up and manage a project?</td></tr>
+        <tr><td class="id">PLN</td><td>Plan module</td><td>How do I plan and track the work?</td></tr>
+        <tr><td class="id">RPT</td><td>Reports</td><td>How do I see how the project is going?</td></tr>
+        <tr><td class="id">REF</td><td>Reference</td><td>What does this field or term mean?</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="h-rec">
+  <div class="sec-head reveal-line"><h2 id="h-rec">Experience</h2><span class="label">Record</span></div>
+  <div class="record">
+    <div class="timeline sheet reveal">
+      <div class="job">
+        <span class="when">Nov 2022 – Present</span>
+        <div>
+          <h3>Technical Writer · Customer Success Specialist</h3>
+          <div class="org">Uconia (GagaMuller Technology), Islamabad</div>
+          <ul>
+            <li>Built the HubSpot knowledge base, help desk and support pipelines from the ground up</li>
+            <li>Primary support and onboarding contact for an Irish client base</li>
+            <li>Daily collaboration with the Ireland head office and Pakistan development and QA teams</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <span class="when">Dec 2021 – Sep 2022</span>
+        <div>
+          <h3>Team Coordinator</h3>
+          <div class="org">Data Nomad, Islamabad</div>
+          <ul>
+            <li>Trained and supervised a team of 9 handling customer-facing work</li>
+            <li>Wrote user guides and internal playbooks</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <span class="when">Jul 2021 – Sep 2021</span>
+        <div>
+          <h3>Maintenance Engineer, Intern</h3>
+          <div class="org">Attock Refinery Limited</div>
+          <ul>
+            <li>Supported maintenance planning, work instructions and shop floor repairs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="side">
+      <div class="sheet reveal">
+        <span class="label">Certifications</span>
+        <ul>
+          <li>Technical Writer Certification</li>
+          <li>HubSpot Academy administrator learning path</li>
+          <li>Customer Service Skills</li>
+          <li>Project Management Foundations</li>
+          <li>NEBOSH International General Certificate</li>
+        </ul>
+      </div>
+      <div class="sheet reveal">
+        <span class="label">Education</span>
+        <ul><li>BS Mechanical Engineering, HITEC University, 2017 – 2021</li></ul>
+      </div>
+      <div class="sheet reveal">
+        <span class="label">Tools</span>
+        <div class="toolgrid">
+          <span>HubSpot</span><span>Breeze</span><span>Zendesk</span><span>Confluence</span><span>SharePoint</span><span>Microsoft 365</span><span>Loop</span><span>Azure</span><span>ClickUp</span><span>Slack</span><span>Figma</span><span>Canva</span><span>Snagit</span><span>Claude</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="label">Ahmed Ijaz · Islamabad, Pakistan</span>
+  <a href="https://www.linkedin.com/in/ahmedijazmech/" target="_blank" rel="noopener me">Connect on LinkedIn ↗</a>
+</footer>
+
+</main>
+<script>
+(function(){
+  // Copy email
+  var btn=document.getElementById('copy-email'),em=document.getElementById('email');
+  btn.addEventListener('click',function(){
+    function sel(){var r=document.createRange();r.selectNodeContents(em);var s=getSelection();s.removeAllRanges();s.addRange(r);btn.textContent='Selected, press Ctrl+C';}
+    try{navigator.clipboard.writeText(em.textContent).then(function(){btn.textContent='Copied';setTimeout(function(){btn.textContent='Copy email'},1800)},sel)}catch(e){sel()}
+  });
+
+  var root=document.documentElement;
+  if(!root.classList.contains('js-anim')||!('IntersectionObserver' in window))return;
+
+  // Scroll reveals: only hide things that start below the fold, so the first frame is complete.
+  var vh=innerHeight;
+  var items=[].slice.call(document.querySelectorAll('.reveal,.reveal-line'));
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting){e.target.classList.remove('pre');io.unobserve(e.target);
+      if(e.target.classList.contains('stats'))countUp(e.target);}
+  })},{rootMargin:'0px 0px -10% 0px'});
+  items.forEach(function(el){
+    if(el.getBoundingClientRect().top>vh*0.9){el.classList.add('pre');
+      if(el.classList.contains('reveal-line'))el.classList.add('sec-head');}
+    io.observe(el);
+  });
+  // Stagger sibling cards
+  document.querySelectorAll('.cases .reveal').forEach(function(el,i){el.style.transitionDelay=(i%2)*90+'ms'});
+
+  // Count-up for the stats strip
+  function countUp(box){
+    box.querySelectorAll('.count').forEach(function(c){
+      var to=+c.dataset.to,t0=null,d=1200;
+      function step(t){if(!t0)t0=t;var p=Math.min((t-t0)/d,1),v=Math.round(to*(1-Math.pow(1-p,3)));c.textContent=v;if(p<1)requestAnimationFrame(step)}
+      c.textContent='0';requestAnimationFrame(step);
+    });
+  }
+  var stats=document.querySelector('.stats');
+  if(stats.getBoundingClientRect().top<=vh*0.9)countUp(stats);
+
+  // Subtle drafting-grid parallax
+  var ticking=false;
+  addEventListener('scroll',function(){if(ticking)return;ticking=true;requestAnimationFrame(function(){
+    document.body.style.setProperty('--gy',(-scrollY*0.15)+'px');ticking=false;})},{passive:true});
+})();
+</script>
+</body>
+</html>
